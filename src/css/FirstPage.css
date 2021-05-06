@@ -1,0 +1,74 @@
+@charset "ISO-8859-1";
+
+*{
+	padding:0px;
+	margin:0px;
+    height: 100%;
+}
+
+#body-background{
+	min-height:100%;
+	min-width:100%;
+	background-image:url(../images/fashion4.jpeg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+    background-position: center;
+    position: fixed;
+}
+
+#body-background1{
+	min-height:100%;
+	min-width:100%;
+	background-image:url(../images/black.png);
+}
+
+#body-background2{
+	width:1200px;
+	height:100%;
+	margin:auto;
+}
+
+#shoppingLable{
+	width:570px;
+	height:150px;
+	font-size:140px;
+	float:left;
+	color:white;
+	font-family:Tw Cen MT Condensed;
+	margin-top:20px;
+	margin-left:310px;
+}
+
+#real{
+	width:800px;
+	height:390px;
+	color:white;
+	font-family:Segoe UI Black;
+	font-size:70px;
+	text-align:center;
+	margin-top:20px;
+	margin-left:200px;
+	float:left;
+}
+
+#cilck-me{
+	width:270px;
+	height:80px;
+	color:white;
+	font-family:Maiandra GD;
+	font-size:70px;
+	text-align:center;
+	margin-left:450px;
+	float:left;
+	background:#114568;
+	border-radius:15px;
+	padding:10px;
+}
+
+#link{
+	text-decoration:none;
+}
+
+#cilck-me:hover{
+	background:#5885a3;
+}
