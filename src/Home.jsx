@@ -19,7 +19,7 @@ function Home() {
                 <div id="top-bar1">
                     <img id="image" alt="cart" src={cart} width="70"/>
                     <div id="shopping">Shopping.com</div>
-                    <a id="link" href="/firstPage"><div id="signUp"><div id="signUp1">Sign Up</div></div></a>
+                    <a id="link" href="/signUpMain"><div id="signUp"><div id="signUp1">Sign Up</div></div></a>
                     <a id="link" href="/firstPage"><div id="login"><div id="login1">Login</div></div></a>
                 </div>
             </div>

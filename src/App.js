@@ -1,8 +1,9 @@
 import './css/App.css';
-import FirstPage from "./FirstPage";
 import {Switch} from "react-router";
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import FirstPage from "./FirstPage";
 import Home from "./Home";
+import SignUpMain from "./SignUpMain";
 
 function App() {
 
@@ -17,6 +18,9 @@ function App() {
                     </Route>
                     <Route exact path={"/home"}>
                         <Home />
+                    </Route>
+                    <Route exact path={"/signUpMain"}>
+                        <SignUpMain />
                     </Route>
                 </Switch>
             </Router>

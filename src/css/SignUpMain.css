@@ -241,220 +241,59 @@
 
 /*Background body Start*/
 
-.body-background{
-    width:100%;
-    height:2100px;
-    margin-top:1px;
-    float:left;
-}
-
-.body-background1{
-    width:1200px;
-    height:2100px;
-    margin:auto;
-}
-
-#slide-bar{
-    width:750px;
-    height:300px;
-    float:left;
-    margin-top:50px;
-    margin-left:210px;
-    box-shadow:0px 0px 10px #818d96;
-}
-
-#first-section{
-    width:1200px;
-    height:1000px;
-    margin:auto;
-}
-
-#first-content-bar{
-    width:600px;
-    height:560px;
-    float:left;
-    text-align:center;
-    margin-left:300px;
-}
-
-#content1{
-    width:550px;
-    height:400px;
-    font-family:Tw Cen MT Condensed;
-    font-size:130px;
-    color:#204d70;
-    margin-left:25px;
-    float:left;
-}
-
-#content2{
-    width:600px;
-    height:150px;
-    font-family:Corbel;
-    font-size:55px;
-    color:#818d96;
-    margin-top:10px;
-    float:left;
-}
-
-#second-background{
-    width:600px;
-    height:480px;
-    float:left;
-    text-align:center;
-    margin-left:300px;
-}
-
-#vision-mission-background{
-    width:1200px;
-    height:1010px;
-    float:left;
-    margin-top:30px;
-    background-image:url(../images/black.png);
-    /*background:blue;*/
-}
-
-#vision-background{
-    width:800px;
-    height:460px;
-    margin:auto;
-    /*background:red;*/
-}
-
-#vision{
-    width:240px;
-    height:100px;
-    float:left;
-    margin-top:20px;
-    margin-left:260px;
-    font-family:Berlin Sans FB;
-    font-size:100px;
-    color:white;
-    /*background:blue;*/
-}
-
-#vision-content{
-    width:700px;
-    height:300px;
-    float:left;
-    margin-top:20px;
-    margin-left:50px;
-    font-family:Candara;
-    font-size:30px;
-    color:white;
-    text-align:center;
-    /*background:blue;*/
-}
-
-#mission-background{
-    width:800px;
-    height:550px;
-    margin:auto;
-    /*background:red;*/
-}
-
-#mission{
-    width:290px;
-    height:100px;
-    float:left;
-    margin-top:20px;
-    margin-left:260px;
-    font-family:Berlin Sans FB;
-    font-size:100px;
-    color:white;
-    /*background:blue;*/
-}
-
-#mission-content{
-    width:700px;
-    height:390px;
-    float:left;
-    margin-top:20px;
-    margin-left:50px;
-    font-family:Candara;
-    font-size:30px;
-    color:white;
-    text-align:center;
-    /*background:blue;*/
-}
-
-/*Ads background start*/
-
-#ads-background{
-    width:100%;
-    height:1750px;
-    float:left;
-}
-
-#ads9{
-    width:100%;
-    height:600px;
-    background-image:url(../images/ads9.jpg);
-    background-repeat:no-repeat;
-    background-size:100% 100%;
-}
-
-#ads10{
-    width:100%;
-    height:200px;
-    background-image:url(../images/ads10.jpg);
-    background-repeat:no-repeat;
-    background-size:100% 100%;
-}
-
-#ads11{
+#signUpMain-background{
     width:100%;
     height:500px;
-    background-image:url(../images/ads11.jpg);
+    background-image:url(../images/fashion-brands.jpg);
     background-repeat:no-repeat;
     background-size:100% 100%;
-    margin-bottom:20px;
-}
-
-#ads13{
-    width:100%;
-    height:260px;
     float:left;
 }
 
-#ads13-image{
-    width:690px;
-    height:260px;
-    background-image:url(../images/ads13.jpg);
-    background-repeat:no-repeat;
-    background-size:100% 100%;
-    margin:auto;
-}
-
-#last-contact-us{
+#signUpMain-background1{
     width:1200px;
-    height:250px;
+    height:500px;
     margin:auto;
+    /*background:red;*/
 }
 
-#get-details{
-    width:600px;
-    height:70px;
-    margin-top:20px;
-    margin-left:300px;
+#customer-signUp{
+    width:300px;
+    height:200px;
+    background-image:url(../images/white.png);
+    border-radius:20px;
     float:left;
-    font-family:Segoe UI Black;
-    font-size:40px;
-    color:#747f87;
+    margin-left:200px;
+    margin-top:120px;
+    text-align:center;
 }
 
-#get-contact-us{
-    width:150px;
-    height:50px;
+#customer-login, #admin-login{
+    width:auto;
+    height:auto;
+    font-family:Lato Black;
+    font-size:50px;
+    padding:30px;
+}
+
+#admin-signUp{
+    width:300px;
+    height:200px;
+    background-image:url(../images/white.png);
+    border-radius:20px;
     float:left;
-    margin-left:530px;
-    font-family:Maiandra GD;
-    font-size:30px;
-    color:#2c5383;
+    margin-left:200px;
+    margin-top:120px;
+    text-align:center;
 }
 
-#get-contact-us:hover{
-    color:#071d2c;
+#link{
+    color:black;
+}
+
+#customer-signUp:hover, #admin-signUp:hover{
+    background-image:url(../images/black.png);
+    color:white;
 }
 
 /*Background body end*/
