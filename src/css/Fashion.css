@@ -1,0 +1,474 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+/*Header Start*/
+#top-bar{
+    width:100%;
+    height:90px;
+    margin-bottom:2px;
+    background:#6d93b3;
+    float:left;
+}
+
+#top-bar1{
+    width:1200px;
+    height:90px;
+    margin:auto;
+    color:white;
+    font-family:Maiandra GD;
+    /*background:red;*/
+    /*font-weight:bold;*/
+    font-size:25px;
+    background:white;
+    border-radius:20px;
+}
+
+#image{
+    width:70px;
+    height:auto;
+    float:left;
+    margin-left:60px;
+    margin-top:5px;
+}
+
+#shopping{
+    width:350px;
+    height:90px;
+    font-size:80px;
+    float:left;
+    color:#1b3f6c;
+    font-family:Tw Cen MT Condensed;
+    margin-left:260px;
+}
+
+#signUp{
+    width:120px;
+    height:80px;
+    float:left;
+    margin-top:7px;
+    margin-left:160px;
+}
+
+#signUp1{
+    width:110px;
+    height:40px;
+    font-size:30px;
+    float:left;
+    background:#6d93b3;
+    margin-top:20px;
+    padding-left:10px;
+    border-radius:10px;
+}
+
+#login{
+    width:120px;
+    height:80px;
+    float:left;
+    margin-left:20px;
+    margin-top:7px;
+}
+
+#login1{
+    width:90px;
+    height:40px;
+    font-size:30px;
+    float:left;
+    background:#6d93b3;
+    margin-top:20px;
+    padding-left:20px;
+    border-radius:10px;
+}
+
+#login1:hover, #signUp1:hover{
+    background:#1b3f6c;
+}
+
+#head{
+    width:100%;
+    height:50px;
+    background:#6d93b3;
+    box-shadow:10px 0px 0px #7fb7dd;
+    float:left;
+}
+
+#head1{
+    width:1200px;
+    height:50px;
+    margin:auto;
+    color:white;
+    font-family:Maiandra GD;
+    /*background:red;*/
+    /*font-weight:bold;*/
+    font-size:25px;
+}
+
+#link,#link1{
+    text-decoration:none;
+    color:white;
+}
+
+#navigation-bar{
+    width:1200px;
+    height:30px;
+    float:left;
+}
+
+#welcome{
+    width:120px;
+    height:30px;
+    float:left;
+    margin-left:80px;
+    margin-top:10px;
+}
+
+#welcome:hover, #cart:hover, #contact:hover, #item:hover{
+    color:#0e2138;
+}
+
+#item{
+    width:310px;
+    height:340px;
+    float:left;
+    margin-top:10px;
+    margin-left:70px;
+    text-align:center;
+}
+
+/*#item1{
+	width:310px;
+	height:274px;
+	float:left;
+}
+
+#sub{
+	width:310px;
+	height:300px;
+	display:none;
+	float:left;
+}
+
+#fashion{
+	width:300px;
+	height:30px;
+	padding-left:10px;
+	background:#165987;
+	margin-top:2px;
+}
+
+#phone{
+	width:300px;
+	height:30px;
+	padding-left:10px;
+	background:#165987;
+	margin-top:2px;
+}
+
+#computer{
+	width:300px;
+	height:30px;
+	padding-left:10px;
+	background:#165987;
+	margin-top:2px;
+}
+
+#jewelary{
+	width:300px;
+	height:30px;
+	padding-left:10px;
+	background:#165987;
+	margin-top:2px;
+}
+
+#bags{
+	width:300px;
+	height:30px;
+	padding-left:10px;
+	background:#165987;
+	margin-top:2px;
+}
+
+#sports{
+	width:300px;
+	height:30px;
+	padding-left:10px;
+	background:#165987;
+	margin-top:2px;
+}
+
+#toys{
+	width:300px;
+	height:30px;
+	padding-left:10px;
+	background:#165987;
+	margin-top:2px;
+}
+
+#games{
+	width:300px;
+	height:30px;
+	padding-left:10px;
+	background:#165987;
+	margin-top:2px;
+}
+
+#item:hover #sub{
+	display:inherit;
+}
+
+#fashion:hover, #phone:hover, #computer:hover,#jewelary:hover, #bags:hover, #fashion:hover, #sports:hover, #toys:hover, #games:hover{
+    font-size:27px;
+}*/
+
+#cart{
+    width:220px;
+    height:30px;
+    margin-left:80px;
+    float:left;
+    margin-top:10px;
+}
+
+#contact{
+    width:160px;
+    height:30px;
+    float:left;
+    margin-left:130px;
+    margin-top:10px;
+}
+
+/*Header End*/
+
+/*Body Start*/
+
+#out-background{
+    width:1200px;
+    height:240px;
+    margin:auto;
+}
+
+#fashion-content{
+    width:320px;
+    height:100px;
+    font-size:100px;
+    margin-left:400px;
+    font-family:Berlin Sans FB;
+    color:#464e54;
+    float:left;
+}
+
+#fashion-ads-background{
+    width:100%;
+    height:4720px;
+    float:left;
+    margin-top:20px;
+}
+
+#fashion-ads-background1{
+    width:1200px;
+    height:4720px;
+    margin:auto;
+}
+
+#women1{
+    width:300px;
+    height:425px;
+    float:left;
+    margin-left:50px;
+}
+
+#women-price, #men-price{
+    width:220px;
+    height:25px;
+    font-size:20px;
+    font-family:Candara;
+    color:#464e54;
+}
+
+#women2{
+    width:300px;
+    height:425px;
+    float:left;
+    margin-left:100px;
+}
+
+#women3{
+    width:300px;
+    height:425px;
+    float:left;
+    margin-left:100px;
+}
+
+#women4, #women7, #women10, #women13, #men1, #men4, #men7, #men10, #men13{
+    width:300px;
+    height:425px;
+    float:left;
+    margin-top:35px;
+    margin-left:50px;
+}
+
+#women5, #women6, #women8, #women9, #women11, #women12, #women14, #women15, #men2, #men3, #men5, #men6, #men8, #men9, #men11, #men12, #men14, #men15{
+    width:300px;
+    height:425px;
+    float:left;
+    margin-top:35px;
+    margin-left:100px;
+}
+
+#last-shopping-cart{
+    width:1200px;
+    height:150px;
+}
+
+#add-cart{
+    width:430px;
+    height:70px;
+    margin-top:30px;
+    margin-left:410px;
+    float:left;
+    font-family:Segoe UI Black;
+    font-size:40px;
+    color:#747f87;
+}
+
+#shopping-cart{
+    width:190px;
+    height:50px;
+    float:left;
+    margin-left:530px;
+    font-family:Maiandra GD;
+    font-size:30px;
+    color:#2c5383;
+}
+
+#shopping-cart:hover{
+    color:#071d2c;
+}
+
+/*Body End*/
+
+/*Footer Start*/
+
+#foot{
+    width:100%;
+    height:250px;
+    background:#2c5383;
+    float:left;
+}
+
+#foot1{
+    width:1200px;
+    height:250px;
+    margin:auto;
+}
+
+#first{
+    width:500px;
+    height:170px;
+    font-size:100px;
+    float:left;
+    color:white;
+    font-family:Tw Cen MT Condensed;
+    margin-top:70px;
+}
+
+.second{
+    width:200px;
+    height:70px;
+    font-size:25px;
+    float:left;
+    color:white;
+    font-family:Yu Gothic UI;
+    text-align:center;
+    margin-top:80px;
+    margin-left:80px;
+}
+
+.address11{
+    font-size:15px;
+}
+
+#third{
+    width:250px;
+    height:90px;
+    float:left;
+    margin-top:80px;
+    margin-left:150px;
+}
+
+#tel{
+    color:white;
+    font-size:20px;
+    font-family:Yu Gothic UI;
+    text-align:center;
+}
+
+.social{
+    width:270px;
+    height:40px;
+    /*position: absolute;*/
+    /*margin-top:30px;*/
+}
+
+.facebook{
+    width:40px;
+    height:40px;
+    float:left;
+    margin-left:16px;
+}
+
+.youtube{
+    width:40px;
+    height:30px;
+    float:left;
+    margin-left:10px;
+    margin-top:8px;
+}
+
+.pinterest{
+    width:40px;
+    height:30px;
+    float:left;
+    margin-left:5px;
+    margin-top:8px;
+}
+
+.twitter{
+    width:50px;
+    height:30px;
+    float:left;
+    margin-left:5px;
+    margin-top:8px;
+}
+
+.instagram{
+    width:40px;
+    height:40px;
+    float:left;
+    margin-left:5px;
+}
+
+#bottom-bar{
+    width:100%;
+    height:35px;
+    background:#2c5383;
+    margin-top:2px;
+    padding-bottom:10px;
+    float:left;
+}
+
+#bottom-bar1{
+    width:1200px;
+    height:20px;
+    margin:auto;
+    padding-bottom:10px;
+}
+
+#content{
+    padding-top:10px;
+    padding-bottom:10px;
+    color:white;
+    font-size:17px;
+}
+
+/*Footer End*/

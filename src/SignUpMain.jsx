@@ -26,7 +26,7 @@ function SignUpMain() {
                     <div id="navigation-bar">
                         <a id="link" href="/home"><div id="welcome">Welcome</div></a>
 
-                        <a id="link" href="/home"><div id="item">Items</div></a>
+                        <a id="link" href="/fashion"><div id="item">Items</div></a>
                         <a id="link" href="/home"><div id="cart">Shopping Cart</div></a>
                         <a id="link" href="/home"><div id="contact">About us</div></a>
                     </div>

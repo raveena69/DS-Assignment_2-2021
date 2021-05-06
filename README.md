@@ -1,8 +1,10 @@
 # DS-Assignment 2 - Shopping Platform [2021]
 
-## Getting Started with Create React App
+## Getting Started with the project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+After Clone the project, first you have to run:
+
+### `npm install`
 
 ## Available Scripts
 

@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import FirstPage from "./FirstPage";
 import Home from "./Home";
 import SignUpMain from "./SignUpMain";
+import Fashion from "./Fashion";
 
 function App() {
 
@@ -21,6 +22,9 @@ function App() {
                     </Route>
                     <Route exact path={"/signUpMain"}>
                         <SignUpMain />
+                    </Route>
+                    <Route exact path={"/fashion"}>
+                        <Fashion />
                     </Route>
                 </Switch>
             </Router>
