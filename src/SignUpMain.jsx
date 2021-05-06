@@ -39,12 +39,12 @@ function SignUpMain() {
                 <div id="signUpMain-background1">
 
                     <a id="link" href="/home"><div id="customer-signUp">
-                        <div id="customer-login">Customer Login</div>
+                        <div className="customer-login">Customer Login</div>
                     </div>
                     </a>
 
                     <a id="link" href="/home"><div id="admin-signUp">
-                        <div id="admin-login">Seller Login</div>
+                        <div className="admin-login">Seller Login</div>
                     </div>
                     </a>
 
