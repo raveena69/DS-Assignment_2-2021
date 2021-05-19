@@ -44,15 +44,15 @@
 }
 
 #signUp{
-    width:120px;
+    width:220px;
     height:80px;
     float:left;
     margin-top:7px;
     margin-left:160px;
 }
 
-#signUp1{
-    width:110px;
+#signUp11{
+    width:120px;
     height:40px;
     font-size:30px;
     float:left;
@@ -63,15 +63,15 @@
 }
 
 #login{
-    width:120px;
+    width:220px;
     height:80px;
     float:left;
     margin-left:20px;
     margin-top:7px;
 }
 
-#login1{
-    width:90px;
+#login11{
+    width:110px;
     height:40px;
     font-size:30px;
     float:left;

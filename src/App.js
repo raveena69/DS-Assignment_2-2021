@@ -5,6 +5,7 @@ import FirstPage from "./FirstPage";
 import Home from "./Home";
 import SignUpMain from "./SignUpMain";
 import Fashion from "./Fashion";
+import UserSignup from "./UserSignup";
 
 function App() {
 
@@ -25,6 +26,9 @@ function App() {
                     </Route>
                     <Route exact path={"/fashion"}>
                         <Fashion />
+                    </Route>
+                    <Route exact path={"/userSignup"}>
+                        <UserSignup />
                     </Route>
                 </Switch>
             </Router>

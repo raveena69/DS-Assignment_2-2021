@@ -8,6 +8,7 @@ function FirstPage() {
 
         return (
             <div>
+                {/* First Page start */}
                 <div id="body-background">
                     <div id="body-background1">
 
@@ -19,7 +20,7 @@ function FirstPage() {
 
                     </div>
                 </div>
-
+                {/* First Page end */}
             </div>
         );
 }

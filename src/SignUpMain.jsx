@@ -16,7 +16,7 @@ function SignUpMain() {
                 <div id="top-bar1">
                     <img id="image" alt="cart" src={cart} width="70"/>
                     <div id="shopping">Shopping.com</div>
-                    <a id="link" href="/firstPage"><div id="signUp"><div id="signUp1">Sign Up</div></div></a>
+                    <a id="link" href="/UserSignup"><div id="signUp"><div id="signUp1">Sign Up</div></div></a>
                     <a id="link" href="/firstPage"><div id="login"><div id="login1">Login</div></div></a>
                 </div>
             </div>
@@ -38,7 +38,7 @@ function SignUpMain() {
             <div id="signUpMain-background">
                 <div id="signUpMain-background1">
 
-                    <a id="link" href="/home"><div id="customer-signUp">
+                    <a id="link" href="/userSignup"><div id="customer-signUp">
                         <div className="customer-login">Customer Login</div>
                     </div>
                     </a>
