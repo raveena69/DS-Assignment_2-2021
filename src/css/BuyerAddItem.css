@@ -248,238 +248,113 @@
 /*Header End*/
 
 
-
-
-/*Body Start*/
-
-#out-background{
-    width:1200px;
-    height:240px;
-    margin:auto;
+body {
+    margin: 0%;
+    padding: 0%;
 }
 
-#fashion-content{
-    width:320px;
-    height:100px;
-    font-size:100px;
-    margin-left:400px;
-    font-family:Berlin Sans FB;
-    color:#464e54;
-    float:left;
+.Form {
+    width: 800px;
+    height: 800px;
+    background-color: #2F4050;
+    box-shadow: 3px 3px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom:800px;
+    left:800px;
 }
 
-#fashion-ads-background{
-    width:100%;
-    height:4720px;
+.Form .title {
+    color: white;
+    flex: 20%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    font-size: 35px;
+}
+
+.Form .inputs {
+    flex: 80%;
+    width: 100%;
+}
+#input2{
+    position: relative;
+    left:83px;
+    bottom:570px;
+
+}
+#input3{
+    position: relative;
+    left:87px;
+    bottom:1140px;
+
+}
+#input4{
+    position: relative;
+    left:106px;
+    bottom:1720px;
+
+}
+#input1{
+    position: relative;
+    left:70px;
+
+}
+label{
+    font-size: 25px;
+    position: relative;
+    right:70px;
+    color: black;
+}
+
+.inputs input {
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 6px;
+    border: none;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.inputs #submit {
+    cursor: pointer;
+}
+
+#Add{
+    width:280px;
+    height:60px;
+    font-size:25px;
+    color: white;
     float:left;
+    background:#6d93b3;
     margin-top:20px;
+    padding-left:20px;
+    border-radius:10px;
+    position: relative;
+    left:250px;
+    bottom:2300px;
+
 }
 
-#fashion-ads-background1{
-    width:1200px;
-    height:4720px;
-    margin:auto;
+#Add:hover{
+    background:#1b3f6c;
 }
+.l2{
+    position: relative;
+    right:70px;
+    bottom:570px;
 
-#women1{
-    width:300px;
-    height:425px;
-    float:left;
-    margin-left:50px;
 }
-
-#women-price, #men-price{
-    width:220px;
-    height:25px;
-    font-size:20px;
-    font-family:Candara;
-    color:#464e54;
+.l3{
+    position: relative;
+    right:70px;
+    bottom:1140px;
 }
-
-#women2{
-    width:300px;
-    height:425px;
-    float:left;
-    margin-left:100px;
+.l4{
+    position: relative;
+    right:70px;
+    bottom:1720px;
 }
-
-#women3{
-    width:300px;
-    height:425px;
-    float:left;
-    margin-left:100px;
-}
-
-#women4, #women7, #women10, #women13, #men1, #men4, #men7, #men10, #men13{
-    width:300px;
-    height:425px;
-    float:left;
-    margin-top:35px;
-    margin-left:50px;
-}
-
-#women5, #women6, #women8, #women9, #women11, #women12, #women14, #women15, #men2, #men3, #men5, #men6, #men8, #men9, #men11, #men12, #men14, #men15{
-    width:300px;
-    height:425px;
-    float:left;
-    margin-top:35px;
-    margin-left:100px;
-}
-
-#last-shopping-cart{
-    width:1200px;
-    height:150px;
-}
-
-#add-cart{
-    width:430px;
-    height:70px;
-    margin-top:30px;
-    margin-left:410px;
-    float:left;
-    font-family:Segoe UI Black;
-    font-size:40px;
-    color:#747f87;
-}
-
-#shopping-cart{
-    width:190px;
-    height:50px;
-    float:left;
-    margin-left:530px;
-    font-family:Maiandra GD;
-    font-size:30px;
-    color:#2c5383;
-}
-
-#shopping-cart:hover{
-    color:#071d2c;
-}
-
-/*Body End*/
-
-/*Footer Start*/
-
-#foot{
-    width:100%;
-    height:200px;
-    background:#2c5383;
-    float:left;
-}
-
-#foot1{
-    width:1200px;
-    height:200px;
-    margin:auto;
-}
-
-#first{
-    width:500px;
-    height:170px;
-    font-size:25px;
-    float:left;
-    color:white;
-    font-family:Tw Cen MT Condensed;
-    margin-top:40px;
-}
-
-.second{
-    width:200px;
-    height:70px;
-    font-size:25px;
-    float:left;
-    color:white;
-    font-family:Yu Gothic UI;
-    text-align:center;
-    margin-top:40px;
-    margin-left:80px;
-}
-
-.address11{
-    font-size:15px;
-}
-
-#third{
-    width:250px;
-    height:90px;
-    float:left;
-    margin-top:40px;
-    margin-left:150px;
-}
-
-#tel{
-    color:white;
-    font-size:20px;
-    font-family:Yu Gothic UI;
-    text-align:center;
-}
-
-.social{
-    width:270px;
-    height:40px;
-    /*position: absolute;*/
-    /*margin-top:30px;*/
-}
-
-.facebook{
-    width:40px;
-    height:40px;
-    float:left;
-    margin-left:16px;
-}
-
-.youtube{
-    width:40px;
-    height:30px;
-    float:left;
-    margin-left:10px;
-    margin-top:8px;
-}
-
-.pinterest{
-    width:40px;
-    height:30px;
-    float:left;
-    margin-left:5px;
-    margin-top:8px;
-}
-
-.twitter{
-    width:50px;
-    height:30px;
-    float:left;
-    margin-left:5px;
-    margin-top:8px;
-}
-
-.instagram{
-    width:40px;
-    height:40px;
-    float:left;
-    margin-left:5px;
-}
-
-#bottom-bar{
-    width:100%;
-    height:35px;
-    background:#2c5383;
-    margin-top:2px;
-    padding-bottom:10px;
-    float:left;
-}
-
-#bottom-bar1{
-    width:1200px;
-    height:20px;
-    margin:auto;
-    padding-bottom:10px;
-}
-
-#content{
-    padding-top:10px;
-    padding-bottom:10px;
-    color:white;
-    font-size:17px;
-}
-
-/*Footer End*/

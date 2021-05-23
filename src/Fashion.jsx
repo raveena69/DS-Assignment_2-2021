@@ -6,17 +6,19 @@ import youtube from './images/youtube.png';
 import pinterest from './images/pinterest.png';
 import twitter from './images/twitter.png';
 import instagram from './images/instagram.png';
+import Navbar from "./Components/Navbar";
 
 function SignUpMain() {
     return (
         <div>
             {/*Header Start*/}
 
+
             <div id="top-bar" >
                 <div id="top-bar1">
                     <img id="image" alt="cart" src={cart} width="70"/>
                     <div id="shopping">Shopping.com</div>
-                    <a id="link" href="/UserSignup"><div id="signUp"><div id="signUp11">Sign Up</div></div></a>
+                    <a id="link" href="/signUpMain"><div id="signUp"><div id="signUp11">Sign Up</div></div></a>
                     <a id="link" href="/firstPage"><div id="login"><div id="login11">Login</div></div></a>
                 </div>
             </div>
@@ -25,15 +27,18 @@ function SignUpMain() {
                 <div id="head1">
                     <div id="navigation-bar">
                         <a id="link" href="/home"><div id="welcome">Welcome</div></a>
-
                         <a id="link" href="/fashion"><div id="item">Items</div></a>
-                        <a id="link" href="/home"><div id="cart">Shopping Cart</div></a>
+                        <a id="link" href="/cart"><div id="cart">Shopping Cart</div></a>
                         <a id="link" href="/home"><div id="contact">About us</div></a>
                     </div>
                 </div>
             </div>
 
+            <Navbar/>
+
             {/*Header End */}
+            <div id = "top-h">
+
             <div id="out-background">
                 <div id="fashion-content">Fashion</div>
             </div>
@@ -200,7 +205,7 @@ function SignUpMain() {
 
                     <div id="last-shopping-cart">
                         <div id="add-cart">Add to shopping Cart</div>
-                        <a id="link" href="/home"><div id="shopping-cart">Shopping Cart</div></a>
+                        <a id="link" href="/cart"><div id="shopping-cart">Shopping Cart</div></a>
                     </div>
                 </div>
             </div>
@@ -253,6 +258,7 @@ function SignUpMain() {
 
             {/*Footer End*/}
 
+        </div>
         </div>
     );
 }
