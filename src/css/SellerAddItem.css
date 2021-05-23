@@ -1,0 +1,382 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+/*Header Start*/
+#top-bar{
+    width:100%;
+    height:90px;
+    margin-bottom:2px;
+    background:#6d93b3;
+    float:left;
+
+}
+#top-h{
+    position:relative;
+    bottom:800px;
+    left:200px;
+}
+#top-bar1{
+    width:1200px;
+    height:90px;
+    margin:auto;
+    color:white;
+    font-family:Maiandra GD;
+    /*background:red;*/
+    /*font-weight:bold;*/
+    font-size:25px;
+    background:white;
+    border-radius:20px;
+}
+
+#image{
+    width:70px;
+    height:auto;
+    float:left;
+    margin-left:60px;
+    margin-top:5px;
+}
+
+#shopping{
+    width:350px;
+    height:90px;
+    font-size:80px;
+    float:left;
+    color:#1b3f6c;
+    font-family:Tw Cen MT Condensed;
+    margin-left:260px;
+}
+
+#signUp{
+    width:220px;
+    height:80px;
+    float:left;
+    margin-top:7px;
+    margin-left:160px;
+}
+
+#signUp11{
+    width:120px;
+    height:40px;
+    font-size:30px;
+    float:left;
+    background:#6d93b3;
+    margin-top:20px;
+    padding-left:10px;
+    border-radius:10px;
+}
+
+#login{
+    width:220px;
+    height:80px;
+    float:left;
+    margin-left:20px;
+    margin-top:7px;
+    position:relative;
+    bottom:100px;
+    left:150px;
+}
+
+#login11{
+    width:110px;
+    height:40px;
+    font-size:30px;
+    float:left;
+    background:#6d93b3;
+    margin-top:20px;
+    padding-left:20px;
+    border-radius:10px;
+}
+
+#login1:hover, #signUp1:hover{
+    background:#1b3f6c;
+}
+
+#head{
+    width:100%;
+    height:50px;
+    background:#6d93b3;
+    box-shadow:10px 0px 0px #7fb7dd;
+    float:left;
+}
+
+#head1{
+    width:1200px;
+    height:50px;
+    margin:auto;
+    color:white;
+    font-family:Maiandra GD;
+    /*background:red;*/
+    /*font-weight:bold;*/
+    font-size:25px;
+}
+
+#link,#link1{
+    text-decoration:none;
+    color:white;
+}
+
+#navigation-bar{
+    width:1200px;
+    height:30px;
+    float:left;
+}
+
+#welcome{
+    width:120px;
+    height:30px;
+    float:left;
+    margin-left:80px;
+    margin-top:10px;
+}
+
+#welcome:hover, #cart:hover, #contact:hover, #item:hover{
+    color:#0e2138;
+}
+
+#item{
+    width:310px;
+    height:340px;
+    float:left;
+    margin-top:10px;
+    margin-left:70px;
+    text-align:center;
+}
+
+/*#item1{
+	width:310px;
+	height:274px;
+	float:left;
+}
+
+#sub{
+	width:310px;
+	height:300px;
+	display:none;
+	float:left;
+}
+
+#fashion{
+	width:300px;
+	height:30px;
+	padding-left:10px;
+	background:#165987;
+	margin-top:2px;
+}
+
+#phone{
+	width:300px;
+	height:30px;
+	padding-left:10px;
+	background:#165987;
+	margin-top:2px;
+}
+
+#computer{
+	width:300px;
+	height:30px;
+	padding-left:10px;
+	background:#165987;
+	margin-top:2px;
+}
+
+#jewelary{
+	width:300px;
+	height:30px;
+	padding-left:10px;
+	background:#165987;
+	margin-top:2px;
+}
+
+#bags{
+	width:300px;
+	height:30px;
+	padding-left:10px;
+	background:#165987;
+	margin-top:2px;
+}
+
+#sports{
+	width:300px;
+	height:30px;
+	padding-left:10px;
+	background:#165987;
+	margin-top:2px;
+}
+
+#toys{
+	width:300px;
+	height:30px;
+	padding-left:10px;
+	background:#165987;
+	margin-top:2px;
+}
+
+#games{
+	width:300px;
+	height:30px;
+	padding-left:10px;
+	background:#165987;
+	margin-top:2px;
+}
+
+#item:hover #sub{
+	display:inherit;
+}
+
+#fashion:hover, #phone:hover, #computer:hover,#jewelary:hover, #bags:hover, #fashion:hover, #sports:hover, #toys:hover, #games:hover{
+    font-size:27px;
+}*/
+
+#cart{
+    width:220px;
+    height:30px;
+    margin-left:80px;
+    float:left;
+    margin-top:10px;
+}
+
+#contact{
+    width:160px;
+    height:30px;
+    float:left;
+    margin-left:130px;
+    margin-top:10px;
+}
+
+/*Header End*/
+
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.Form {
+    width: 800px;
+    height: 1000px;
+    background-color: #2F4050;
+    box-shadow: 3px 3px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom:800px;
+    left:800px;
+}
+
+.Form .title {
+    color: white;
+    flex: 20%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    font-size: 35px;
+}
+
+.Form .inputs {
+    flex: 80%;
+    width: 100%;
+}
+#input2{
+    position: relative;
+    left:83px;
+    bottom:750px;
+
+}
+#input3{
+    position: relative;
+    left:84px;
+    bottom:1500px;
+
+}
+#input4{
+    position: relative;
+    left:67px;
+    bottom:2250px;
+
+}
+#input5{
+    position: relative;
+    left:91px;
+    bottom:3000px;
+
+}
+#input6{
+    position: relative;
+    left:112px;
+    bottom:3750px;
+
+}
+#input1{
+    position: relative;
+    left:70px;
+
+}
+label{
+    font-size: 25px;
+    position: relative;
+    right:70px;
+    color: black;
+}
+
+.inputs input {
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 6px;
+    border: none;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.inputs #submit {
+    cursor: pointer;
+}
+
+#Add{
+    width:280px;
+    height:60px;
+    font-size:25px;
+    color: white;
+    float:left;
+    background:#6d93b3;
+    margin-top:20px;
+    padding-left:20px;
+    border-radius:10px;
+    position: relative;
+    left:250px;
+    bottom:4470px;
+
+}
+
+#Add:hover{
+    background:#1b3f6c;
+}
+.l2{
+    position: relative;
+    right:70px;
+    bottom:750px;
+
+}
+.l3{
+    position: relative;
+    right:70px;
+    bottom:1500px;
+}
+.l4{
+    position: relative;
+    right:70px;
+    bottom:2250px;
+}
+.l5{
+    position: relative;
+    right:70px;
+    bottom:3000px;
+}
+.l6{
+    position: relative;
+    right:70px;
+    bottom:3750px;
+}
